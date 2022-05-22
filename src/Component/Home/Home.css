@@ -15,5 +15,26 @@
     padding: 20px;
 }
 
+.eco-card-content h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 52px;
+    color: #1E2023;
+    margin: 0;
+}
+
+.eco-card-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #1E2023;
+    text-align: justify;
+    margin-top: 0px;
+}
 
 /*-------  travel ecosystem style end ---------*/

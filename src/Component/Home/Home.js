@@ -39,29 +39,43 @@ const Home = () => {
 
                     <Box className="travel-eco-card">
 
-                        <Grid container spacing={2}>
+                        <Grid container spacing={0.5}>
                             <Grid item xs={12} md={6}>
 
-                                <Card sx={{ maxWidth: 345 }} className='eco-card'>
+                                <Card sx={{ maxWidth: 345, boxShadow: 3 }} className='eco-card'>
                                     <CardMedia
                                         component="img"
                                         alt="green iguana"
                                         height="140"
                                         image={dash1}
                                     />
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
-                                            Lizard
-                                        </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                                            species, ranging across all continents except Antarctica
-                                        </Typography>
+
+                                    {/* <img src={dash1} /> */}
+                                    <CardContent className='eco-card-content'>
+                                        <h4>For Travel Organizers</h4>
+                                        <p>Get a user-friendly & customizable travel portal for your online travel agency. This will allow your OTA drive personalization, increase conversion, and tap into new markets.</p>
+
                                     </CardContent>
                                 </Card>
 
                             </Grid>
                             <Grid item xs={12} md={6}>
+
+                                <Card sx={{ maxWidth: 345, boxShadow: 3 }} className='eco-card'>
+                                    <CardMedia
+                                        component="img"
+                                        alt="green iguana"
+                                        height="140"
+                                        image={dash1}
+                                    />
+
+                                    {/* <img src={dash1} /> */}
+                                    <CardContent className='eco-card-content'>
+                                        <h4>For Travel Organizers</h4>
+                                        <p>Get a user-friendly & customizable travel portal for your online travel agency. This will allow your OTA drive personalization, increase conversion, and tap into new markets.</p>
+
+                                    </CardContent>
+                                </Card>
 
                             </Grid>
                         </Grid>
