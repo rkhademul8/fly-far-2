@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Hearder from './Component/Hearder/Hearder';
-import Button from '@material-ui/core/Button';
-import Banner from './Component/Banner/Banner';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
     <div >
-      <Hearder></Hearder>
-      <Banner></Banner>
+      <Home></Home>
     </div>
   );
 }

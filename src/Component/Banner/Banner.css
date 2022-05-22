@@ -1,5 +1,7 @@
+/*--------------------- banner part start here -----------------------*/
+
 .banner {
-    padding: 130px 30px;
+    padding: 130px 42px;
 }
 
 .banner h1 {
@@ -34,3 +36,31 @@
     background: #FFFFFF;
     color: #1E2023;
 }
+
+
+/*--------------------- banner part end here -----------------------*/
+
+
+
+/*--------------------- airlinr partners start here -----------------------*/
+
+.airline-partner {
+    margin-top: 66px;
+
+}
+
+.airline-partner p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #002441;
+}
+
+.airline-partner img {
+    max-width: 100%;
+}
+
+
+/*--------------------- airlinr partners end here -----------------------*/

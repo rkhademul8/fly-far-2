@@ -1,0 +1,19 @@
+/*-------  travel ecosystem style start -------*/
+
+.travel-eco-header h1 {
+    text-align: center;
+    color: #1E2023;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+}
+
+
+.eco-card {
+    padding: 20px;
+}
+
+
+/*-------  travel ecosystem style end ---------*/

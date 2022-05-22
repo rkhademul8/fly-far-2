@@ -3,9 +3,9 @@ import Container from '@mui/material/Container';
 import { Button, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import banner from '../../image/banner/banner_img.png'
+import airliner from '../../image/banner/airliner.png'
 
 import './Banner.css'
-
 
 const bgbanner = {
     backgroundImage: `url(${banner})`,
@@ -23,6 +23,7 @@ const Banner = () => {
         <Box>
 
             <Container>
+
                 {/*------------- Banner part start ---------------*/}
 
                 <section style={bgbanner} className>
@@ -34,6 +35,22 @@ const Banner = () => {
                 </section>
 
                 {/*------------------ Banner part end -------------------*/}
+
+
+
+                {/* airlinr part start  */}
+
+                <section>
+
+                    <Box className="airline-partner">
+                        <p>Our Most Popular Airlinr Partners</p>
+                        
+                        <img src={airliner} />
+                    </Box>
+
+                </section>
+
+                {/* airlinr part end  */}
 
 
             </Container>
