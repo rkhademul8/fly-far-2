@@ -1,10 +1,13 @@
+import { Container } from '@mui/system';
 import React from 'react';
 
 const Hearder = () => {
     return (
         <div>
 
-            <h1>I am from header</h1>
+            <Container>
+                <h1>I am from header</h1>
+            </Container>
 
         </div>
     );

@@ -1,0 +1,36 @@
+.banner {
+    padding: 130px 30px;
+}
+
+.banner h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 71px;
+    color: #fff;
+    margin: 0;
+}
+
+.banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.banner Button {
+    background: #FFFFFF;
+    color: #1E2023;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner Button:hover {
+    background: #FFFFFF;
+    color: #1E2023;
+}
