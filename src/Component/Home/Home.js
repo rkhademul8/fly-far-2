@@ -9,7 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import RemoveIcon from '@mui/icons-material/Remove';
 
 import dash1 from '../../image/travel_eco/Dashboard_1.png'
 import dash2 from '../../image/travel_eco/Dashboard_2.png'
@@ -34,13 +34,16 @@ const Home = () => {
 
                 <section>
                     <Box className="travel-eco-header">
+                        <Box sx={{ display: 'flex', justifyContent: 'center', color: '#002441;' }}>
+                            <RemoveIcon sx={{ marginTop: '16px' }} /> <p>Our Service</p>
+                        </Box>
                         <h1>Solutions for the whole <br></br> travel ecosystem</h1>
                     </Box>
 
                     <Box className="travel-eco-card">
 
-                        <Grid container spacing={0.5}>
-                            <Grid item xs={12} md={6}>
+                        <Grid container spacing={8} sx={{ display: 'flex', justifyContent: 'center' }}>
+                            <Grid item xs={12} md={5}>
 
                                 <Card sx={{ maxWidth: 345, boxShadow: 3 }} className='eco-card'>
                                     <CardMedia
@@ -59,19 +62,19 @@ const Home = () => {
                                 </Card>
 
                             </Grid>
-                            <Grid item xs={12} md={6}>
+                            <Grid item xs={12} md={5}>
 
                                 <Card sx={{ maxWidth: 345, boxShadow: 3 }} className='eco-card'>
                                     <CardMedia
                                         component="img"
                                         alt="green iguana"
                                         height="140"
-                                        image={dash1}
+                                        image={dash2}
                                     />
 
                                     {/* <img src={dash1} /> */}
                                     <CardContent className='eco-card-content'>
-                                        <h4>For Travel Organizers</h4>
+                                        <h4>For Travelers</h4>
                                         <p>Get a user-friendly & customizable travel portal for your online travel agency. This will allow your OTA drive personalization, increase conversion, and tap into new markets.</p>
 
                                     </CardContent>

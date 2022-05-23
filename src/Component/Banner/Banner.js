@@ -22,7 +22,7 @@ const Banner = () => {
     return (
         <Box>
 
-            <Container>
+            <Container maxWidth="xl">
 
                 {/*------------- Banner part start ---------------*/}
 
@@ -30,7 +30,9 @@ const Banner = () => {
                     <Box className="banner">
                         <h1>One Platform,All <br></br> Travel Solutions.</h1>
                         <p>Bangladesh’s most comprehensive B2B portal for You. In publishing <br></br> and graphic design.</p>
-                        <Button variant="contained">Sign Up Now</Button>
+                        <Box className='sign-up'>
+                            <Button variant="contained">Sign Up Now</Button>
+                        </Box>
                     </Box>
                 </section>
 
@@ -44,7 +46,7 @@ const Banner = () => {
 
                     <Box className="airline-partner">
                         <p>Our Most Popular Airlinr Partners</p>
-                        
+
                         <img src={airliner} />
                     </Box>
 
@@ -60,3 +62,5 @@ const Banner = () => {
 };
 
 export default Banner;
+
+

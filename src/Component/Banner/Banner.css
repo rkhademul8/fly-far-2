@@ -8,7 +8,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 50px;
     line-height: 71px;
     color: #fff;
     margin: 0;
@@ -18,7 +18,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 27px;
     color: #FFFFFF;
     margin-bottom: 50px;
@@ -29,7 +29,7 @@
     color: #1E2023;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .banner Button:hover {
@@ -45,7 +45,7 @@
 /*--------------------- airlinr partners start here -----------------------*/
 
 .airline-partner {
-    margin-top: 66px;
+    padding: 100px 0px;
 
 }
 
@@ -64,3 +64,43 @@
 
 
 /*--------------------- airlinr partners end here -----------------------*/
+
+
+
+/* media querry small mobile */
+
+
+@media only screen and (max-width: 320px) {
+
+    .banner {
+        padding: 20px 10px;
+
+    }
+
+    .banner h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .banner p {
+
+        font-size: 14px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .sign-up {
+        text-align: center;
+    }
+
+    .banner Button {
+        font-size: 14px;
+    }
+
+    .airline-partner {
+        padding: 50px 0px;
+    }
+
+}
